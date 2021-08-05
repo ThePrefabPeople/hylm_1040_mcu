@@ -19,7 +19,7 @@
 #include "cmd_queue.h"
 
 ts_VAR Var={0};
-
+//m1
 int main(void)
 {
   HAL_Init(); 					//复位所有外设，初始化Flash接口和系统滴答定时器
