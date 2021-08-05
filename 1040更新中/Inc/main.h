@@ -1,27 +1,12 @@
 #ifndef __MAIN_H
 #define __MAIN_H
-
 /*
 调试中遇到的问题：
 1，全局变量在仿真器下载完程序直接运行时初始值不等于0
-2，测试AD7190时添加打印信息后测量不到数据
-
-
-1，上位机程序设置进样盘位置1是第一位。
-2，进样位置，错误导致开始运行就结束。
-3，开工作站手动，备用手动PC7没动作。
-4，串口屏
-
-5，限位开关
-6，门控
-
-
-
 */
 #include "stdint.h"
 //测试环境选择
-#define TEST_ENV	0
-
+#define TEST_ENV	1
 
 #if TEST_ENV
 #define VERSION		"测试环境V0.0"

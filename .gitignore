@@ -34,3 +34,4 @@
 *.hex
 *.l2p
 *.scvd
+*.dbgconf
